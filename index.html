@@ -1,89 +1,52 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title></title>
+<title>How to make registration form using HTML and CSS </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  
-  <div class="left">
-    <section class="copy">
-      <h1>Explore your creativity</h1>
-      <h1>Over a dozen courses thought by real creatives</h1>
-      
-      
-    </section>
-    
-  </div>
-  
-  
-  
-  <div class="right">
-    <form>
-      <section class="copy">
-        <h2> Sign Up</h2>
-        
-        <div class="login-container">
-          
-         <p>Already have an account <a href="a"> <strong>login</strong> </a></p>
-        </div>
-        
-      </section>
-      <div class="input-container name">
-        
-      <label for="name">Full Name</label>
-         <input type="text" 
-                id="fname" 
-                name="fname">
-      </div>
-      
-      
-      <div class="input-container email">
-      
-      <label for="email">Email</label>
-         <input type="text" 
-                id="email" 
-                name="email"
-                >
-      </div>
-      
-      
-      <div class="input-container password">
-      <label for="password">Password</label>
-         <input type="password" 
-                id="password" 
-                name="password"
-                placeholder="Must be at least 6 characters">
-                 <i class="far fa-eye-slash"> </i>
-      </div>
-      
-      <div class="input-container cta">
-        <label class="checkbox-container">
-        <input type="checkbox">
-        <span class="checkbox"></span>
-        sign up for email update
-        </label>
-        
-      </div>
-       <button class="signup-btn" type="submit">Sign Up</button>
-       
-       <section class="copy-legal">
-         
-         <p> <span class="small">By continuing, you accept our <br> <a href="#">privacy policy</a>&amp; <a href="#">terms of service</a>.</span>
-         </p>
-         
-         
-       </section>
-      
-      
-    </form>
-    
-  </div>
-
+<div class="wrapper" style="background-image: url('https://picsum.photos/450/450');">
+<div class="inner">
+<div class="image-holder">
+<img src="img1.jpg" alt="image">
+</div>
+<form action="">
+<h3>Registration Form</h3>
+<div class="form-group">
+<input type="text" placeholder="First Name" class="form-control">
+<input type="text" placeholder="Last Name" class="form-control">
+</div>
+<div class="form-wrapper">
+<input type="text" placeholder="Username" class="form-control">
+ 
+</div>
+<div class="form-wrapper">
+<input type="text" placeholder="Email Address" class="form-control">
+ 
+</div>
+<div class="form-wrapper">
+<select name="" id="" class="form-control">
+<option value="" disabled selected>Gender</option>
+<option value="male">Male</option>
+<option value="femal">Female</option>
+<option value="other">Other</option>
+</select>
+</div>
+<div class="form-wrapper">
+<input type="password" placeholder="Password" class="form-control">
+ 
+</div>
+<div class="form-wrapper">
+<input type="password" placeholder="Confirm Password" class="form-control">
+ 
+</div>
+<button>Register
+ 
+</button>
+</form>
+</div>
+</div>
 </body>
-
 </html>
